@@ -7,6 +7,7 @@
   --a1d7d6: #A1D7D6;
   --image-width: 300px;
   --font: "Times New Roman", Times, serif;
+  --margin: 12px;
 }
 
 * {
@@ -26,7 +27,7 @@ body {
 
 #page {
   max-width: 780px;
-  margin: 0 auto;
+  margin: var(--margin) auto;
   padding: 48px 32px 80px;
 }
 
@@ -34,7 +35,7 @@ h1 {
   font-size: 30pt;
   font-weight: normal;
   color: var(--ca3433);
-  margin-bottom: 4px;
+  margin-bottom: var(--margin);
   line-height: 1.3;
 }
 
@@ -42,19 +43,19 @@ h2 {
   font-size: 12pt;
   font-weight: normal;
   color: var(--3f7994);
-  margin-bottom: 8px;
+  margin-bottom: var(--margin);
   line-height: 1.5;
 }
 
 .subtitle {
   font-size: 30pt;
   color: var(--363737);
-  margin-bottom: 40px;
+  margin-bottom: var(--margin);
   line-height: 1.3;
 }
 
 .block {
-  margin-bottom: 24px;
+  margin-bottom: var(--margin);
 }
 
 .block p {
@@ -64,7 +65,7 @@ h2 {
 }
 
 .img-wrap {
-  margin: 0px auto;
+  margin: var(--margin) auto;
   width: var(--image-width);
 }
 
@@ -79,12 +80,12 @@ h2 {
   font-size: 12pt;
   color: var(--363737);
   line-height: 1.5;
-  margin-top: 4px;
+  margin-top: var(--margin);
   font-style: italic;
 }
 
 .interview-block {
-  margin: 24px 0;
+  margin: var(--margin) 0;
   border-left: 2px solid var(--3f7994);
   padding-left: 16px;
 }
@@ -93,18 +94,18 @@ h2 {
   color: var(--ca3433);
   font-size: 12pt;
   line-height: 1.5;
-  margin-bottom: 4px;
+  margin-bottom: var(--margin);
 }
 
 .interview-a {
   font-size: 12pt;
   line-height: 1.5;
-  margin-bottom: 12px;
+  margin-bottom: var(--margin);
 }
 
 .interview-block audio {
   display: block;
-  margin-top: 8px;
+  margin-top: var(--margin);
   width: var(--image-width);
   height: 36px;
   border: 1px solid var(--363737);
@@ -114,7 +115,7 @@ h2 {
 }
 
 .yt-wrap {
-  margin: 24px auto;
+  margin: var(--margin) auto;
   width: 100%;
 }
 
@@ -129,7 +130,7 @@ h2 {
 .yt-caption {
   font-size: 12pt;
   line-height: 1.5;
-  margin-top: 4px;
+  margin-top: var(--margin);
   font-style: italic;
 }
 
@@ -137,7 +138,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4px 0;
+  margin: var(--margin) 0;
 }
 
 .arrow-btn {
@@ -176,19 +177,16 @@ h2 {
   display: none;
 }
 
-.hidden-arrow {
-  display: none;
-}
 
 .works-cited {
-  margin-top: 60px;
+  margin-top: var(--margin);
   border-top: 1px solid var(--363737);
   padding-top: 20px;
 }
 
 .works-cited h2 {
   color: var(--363737);
-  margin-bottom: 8px;
+  margin-bottom: var(--margin);
 }
 
 .works-cited a {
