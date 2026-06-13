@@ -46,16 +46,9 @@ Place all of the following files in the same folder as `index.html`.
 
 ## How to Open
 
-Open `index.html` in any modern browser.
-
-No build step or server is required.
-
-YouTube embeds require an internet connection.
+Open `index.html`!
+No build step or server is required, but YouTube embeds require an internet connection.
 
 ## Notes
 
-- All text types onto the screen as each section scrolls into view.
-- Images are fixed at 480px wide and scale height automatically.
-- Audio clips play inline below each interview answer.
-- YouTube videos are embedded and playable directly on the page.
-- Arrows between sections indicate progression downward through the narrative.
+- Images are fixed and scale height automatically, audio clips play inline below each interview answer, YouTube videos are embedded and playable directly on the page and arrows between sections indicate progression downward through the narrative.
